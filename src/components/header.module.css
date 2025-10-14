@@ -1,0 +1,96 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    gap: 20rem;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    height: 9vh;
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.aContent {
+    font-size: large;
+    color: rgb(55, 65, 81, 1);
+}
+
+.aContent:hover {
+    color: rgb(249, 115, 22, 1);
+}
+
+.likeButton {
+    background-image: linear-gradient(to right, #f97316, #ec4899);
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    width: 7rem;
+    text-align: center;
+    font-size: large;
+}
+
+.likeButton:hover {
+    color: white;
+}
+
+.portfolio {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #f97316, #ec4899);
+    font-size: xx-large;
+    font-weight: bold;
+    border: none;
+}
+
+.menuIcon{
+    display: none;
+    font-size: xx-large;
+
+}
+
+@media (max-width: 960px){
+    .nav{
+        display: none;
+    }
+
+    .menuIcon{
+        display: block;
+    }
+}
+
+.menu{
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100vw;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+    z-index: 999;
+}
+
+.menu a{
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}

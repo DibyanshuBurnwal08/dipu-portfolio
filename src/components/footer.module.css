@@ -1,0 +1,12 @@
+.footerMain{
+    text-align:"center"; 
+    padding: 10px; 
+    background-color: rgb(17 24 39);
+    height: 5rem;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footerMain p{
+    color: rgb(156 163 175);
+}
