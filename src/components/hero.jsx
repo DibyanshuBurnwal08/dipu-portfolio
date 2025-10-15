@@ -9,7 +9,7 @@ const Hero = ({scrollToSection}) => {
                 <div className={styles.heroContent}>
                     <div className={styles.circleBox}>FD</div>
                     <h1 className={styles.Heading}>Frontend Developer</h1>
-                    <p style={{ fontSize: "1.5rem", lineHeight: "2rem", color:"rgb(75, 85, 99)", textAlign:"center" }}>Crafting beautiful, responsive, and user-friendly web experiences</p>
+                    <p className={styles.heroPara}>Crafting beautiful, responsive, and user-friendly web experiences</p>
                     <div className={styles.buttonBox}>
                         <button className={styles.b1} onClick={() => scrollToSection('project')}>View my work</button>
                         <button className={styles.b2} onClick={() => scrollToSection('contact')}>Get in Touch</button>

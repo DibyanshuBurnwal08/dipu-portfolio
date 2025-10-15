@@ -13,6 +13,12 @@
   flex-wrap: wrap;
 }
 
+.Heading {
+  font-size: 3rem;
+  color: #ea580c;
+  font-weight: bold;
+}
+
 .likeButton {
   display: inline-block;
   background-color: #007bff;
@@ -58,5 +64,11 @@
     .box{
         width: 90%;
     }
+}
+
+@media (max-width: 485px) {
+  .Heading {
+    font-size: 10vw;
+  }
 }
 

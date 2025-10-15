@@ -10,13 +10,13 @@
     gap: 3rem;
     align-items: center;
     padding: 2rem 5rem;
-    width: 100%;
+    width: 100vw;
 }
 
 .aboutImg {
     max-width: 500px;
     height: auto;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,3 +146,10 @@
         margin-bottom: 2rem;
     }
 }
+
+@media (max-width: 580px){
+    .justAbout h3 {
+        font-size: 5vw;
+    }
+}
+

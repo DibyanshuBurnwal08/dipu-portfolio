@@ -5,7 +5,6 @@
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: white;
     z-index: 1000;
     height: 9vh;
     background-color: rgba(255, 255, 255, 0.75);
@@ -58,7 +57,7 @@
 
 .menuIcon{
     display: none;
-    font-size: xx-large;
+    font-size: 200%;
 
 }
 
@@ -73,8 +72,8 @@
 }
 
 .menu{
-    position: absolute;
-    top: 100%; 
+    position: fixed;
+    top: 9vh; 
     left: 0;
     width: 100vw;
     background: white;
@@ -93,4 +92,11 @@
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
     border-radius: 8px;
+}
+
+@media (max-width: 498px){
+    .header {
+        width: 100vw;
+        gap: 25%;
+    }  
 }

@@ -5,7 +5,7 @@ const FileSkills = () => {
     return (
         <div className={styles.main} id="skill" style={{ scrollMarginTop: '2rem' }}>
             <div>
-            <h1 className={styles1.Heading}>Skills & Technologies</h1>
+            <h1 className={styles.Heading}>Skills & Technologies</h1>
             <p style={{ marginBottom: "4rem",fontSize:"large",color:"gray" }}>Tools and technologies I use to bring ideas to life</p>
             </div>
             <div className={styles1.boxContainer}>

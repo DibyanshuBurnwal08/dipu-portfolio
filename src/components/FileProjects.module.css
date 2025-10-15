@@ -22,3 +22,24 @@
     align-items: center;
 }
 
+.Heading {
+    font-size: 3rem;
+    color: #ea580c;
+    font-weight: bold;
+}
+
+@media (max-width: 430px){
+    .box {
+        height: 40vh;
+        width: 85vw;
+    }
+
+    .Heading {
+        font-size: 10vw;
+    }
+
+    .Main p {
+        text-align: center;
+    }
+}
+

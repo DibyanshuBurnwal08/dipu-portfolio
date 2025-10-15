@@ -32,14 +32,14 @@ const Contact = () => {
                             <div className={styles.iconBox}><MdOutlineMailOutline className={styles.reactIcons}/></div>
                             <div className={styles.infoText}>
                                 <p>Email</p>
-                                <a href="">dibyanshuburnwal93393@gmail.com</a>
+                                <a href="mailto:dibyanshuburnwal93393@gmail.com">dibyanshuburnwal93393@gmail.com</a>
                             </div>
                         </div>
                         <div className={styles.infoBox}>
                             <div className={styles.iconBox}><BsTelephone className={styles.reactIcons}/></div>
                             <div className={styles.infoText}>
                                 <p>Phone</p>
-                                <a href="">+91 9339320948</a>
+                                <a href="tel:+919339320948">+91 9339320948</a>
                             </div>
                         </div>
                         <div className={styles.infoBox}>
