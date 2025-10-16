@@ -1,5 +1,4 @@
 import styles from './FileContact.module.css';
-import styles1 from './FileAbout.module.css';
 import { MdOutlineMailOutline } from "react-icons/md";
 import { BsTelephone } from "react-icons/bs";
 import { IoLocationOutline } from "react-icons/io5";
@@ -7,8 +6,8 @@ import { PiTelegramLogoLight } from "react-icons/pi";
 const Contact = () => {
     return (
         <div className={styles.Main} id="contact"style={{ scrollMarginTop: '3rem' }} >
-            <h1 className={styles1.Heading}>Let's Work Together</h1>
-            <p style={{ fontSize: "larger", color:"rgb(75, 85, 99)", marginBottom:"3rem"}}>Have a project in mind? I'd love to hear about it. Send me a message!</p>
+            <h1 className={styles.Heading}>Let's Work Together</h1>
+            <p className={styles.para}>Have a project in mind? I'd love to hear about it. Send me a message!</p>
             <div className={styles.contentBox}>
                 <form action="https://formspree.io/f/xeorvoqg" method="POST" className={styles.myform}>
                     <div className="mb-3">

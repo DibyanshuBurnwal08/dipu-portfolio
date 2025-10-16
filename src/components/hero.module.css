@@ -150,3 +150,22 @@
     }
 
 }
+
+@media (max-width: 672px) {
+
+    .buttonBox {
+        width: 90vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .b1 {
+        width: 45%;
+        font-size: 80%;
+    }
+
+    .b2 {
+        width: 40%;
+        font-size: 80%;
+    }
+}

@@ -1,9 +1,22 @@
 .Main {
-    padding: 6rem 0;
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #fbf5f9;
+}
+
+.Heading {
+    font-size: 3rem;
+    color: #ea580c;
+    font-weight: bold;
+}
+
+.para {
+    text-align: center;
+    font-size: larger; 
+    color :rgb(75, 85, 99); 
+    margin-bottom:3rem;
 }
 
 .myform {
@@ -132,4 +145,14 @@
   .myButton {
     width: 100%;
   }
+}
+
+@media (max-width: 448px) {
+    .Heading {
+        font-size: 10vw;
+    }
+
+    .para {
+        font-size: 7vw;
+    }
 }

@@ -18,6 +18,20 @@ const Header = () => {
                     <RxCross2 className={styles.menuIcon}
                     onClick={() => setShowIcon(true)}/>}
 
+                     {showIcon === false &&
+                
+                (
+                    <div className={styles.menu}>
+                        <a href="#about" onClick={() => setShowIcon(true)}>About</a>
+                        <a href="#skill" onClick={() => setShowIcon(true)}>Skill</a>
+                        <a href="#project" onClick={() => setShowIcon(true)}>Projects</a>
+                        <a href="#coding" onClick={() => setShowIcon(true)}>Coding Profile</a>
+                        <a href="#contact" onClick={() => setShowIcon(true)}>Contact</a>
+                    </div>
+                )
+
+                }
+
                     <ul className={styles.nav}>
                         <li className="nav-item">
                             <a className={`nav-link ${styles.aContent}`} href="#about">About</a>
@@ -36,20 +50,6 @@ const Header = () => {
                         </li>
                     </ul>
                 </div>
-
-                {showIcon === false &&
-                
-                (
-                    <div className={styles.menu}>
-                        <a href="#about" onClick={() => setShowIcon(true)}>About</a>
-                        <a href="#skill" onClick={() => setShowIcon(true)}>Skill</a>
-                        <a href="#project" onClick={() => setShowIcon(true)}>Projects</a>
-                        <a href="#coding" onClick={() => setShowIcon(true)}>Coding Profile</a>
-                        <a href="#contact" onClick={() => setShowIcon(true)}>Contact</a>
-                    </div>
-                )
-
-                }
 
             </div>
 

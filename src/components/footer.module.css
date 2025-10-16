@@ -10,3 +10,9 @@
 .footerMain p{
     color: rgb(156 163 175);
 }
+
+@media (max-width: 310px) {
+    .footerMain p {
+        font-size: 10px;
+    }
+}
